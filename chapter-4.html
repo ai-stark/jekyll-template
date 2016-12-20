@@ -1,0 +1,53 @@
+---
+layout: page
+url: chapter-4
+title: Chapter 4
+slug: chapter-4
+subtitle: Subtitle
+description: Facebook Description
+subtitle: Subtitle
+billboardClass: chapter4-billboard
+
+subnav:
+- section-num: 4.1 
+  section-title: Subnav Section Title
+
+
+navigation_weight: 25
+---
+
+
+
+
+{% include billboard.html %}
+
+
+<div class="section-header" id="section4.1" name="section4.1">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">4.1</span>{{ page.subnav[0].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<div>
+
+					<p><- insert content -></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+{% include upper-footer.html %}

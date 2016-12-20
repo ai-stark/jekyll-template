@@ -1,0 +1,112 @@
+---
+layout: page
+url: chapter-2
+title: Chapter 2
+slug: chapter-2
+subtitle: Subtitle
+description: Facebook description
+twitter: Twitter Post
+billboardClass: chapter2-billboard
+
+subnav:
+- section-num: 2.1 
+  section-title: Subnav Section Title
+- section-num: 2.2 
+  section-title: Subnav Section Title
+- section-num: 2.3 
+  section-title: Subnav Section Title
+
+navigation_weight: 15
+---
+
+
+{% include social-links.html %}
+
+{% include billboard.html %}
+
+
+<div class="section-header" id="section2.1" name="section2.1">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">2.1</span>{{ page.subnav[0].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+
+				<p><- insert content -></p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="section-header" id="section2.2" name="section2.2">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">2.2</span>{{ page.subnav[1].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+
+				<p><- insert content -></p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-header" id="section2.3" name="section2.3">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">2.3</span>{{ page.subnav[2].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				
+				<p><- insert content -></p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Highlighted Section -->
+<!-- 
+<div class="section highlight">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<p><img src="{{site.baseurl}}/assets/img/sdo_workflow_review.jpg" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+
+
+{% include upper-footer.html %}

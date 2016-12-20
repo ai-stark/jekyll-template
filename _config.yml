@@ -1,0 +1,10 @@
+baseurl: /jekyll-template
+
+exclude: ['README.md']
+
+sass:
+ sass_dir: assets/css
+
+permalink: pretty
+
+absolute: https://www.healthit.gov/jekyll-template/

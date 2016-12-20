@@ -1,0 +1,22 @@
+.feedback-billboard{
+	background-image: url('../../assets/img/bg-feedback.jpg');
+	background-position: 98% top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@include breakpoint($medium-2){
+	.feedback-billboard{
+		background-position: center center;
+	}	
+}
+
+.feedback-form p input,
+.feedback-form p textarea{
+	width: 100%;
+}
+
+label{
+	font-weight: 700;
+}
+
