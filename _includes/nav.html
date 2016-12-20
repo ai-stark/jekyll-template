@@ -7,8 +7,13 @@
 			
 			<li class="nav-group {% if p.subnav %}has-sub-nav{% endif %} {% if p.url == page.url %}current{% endif %}">
 				<a href="{{site.baseurl}}{{p.url}}">
-					<span class="section-title">{{p.title}}</span>
-					<span class="section-subtitle">{{p.subtitle}}</span>
+					{% if p.subtitle %}
+						<span class="section-title">{{p.title}}</span>
+						<span class="section-subtitle">{{p.subtitle}}</span>
+					{% else %}
+					<!-- Makes title taller if there is no subtitle but there are subnav items-->
+						<span class="section-title-tall">{{p.title}}</span>
+					{% endif %}
 				</a>
 
 				{% if p.subnav %}
